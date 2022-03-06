@@ -1,0 +1,36 @@
+
+.box-design-1 {
+    padding: 4px 3px 2px 1px;
+    margin: 1px 2px 3px 4px;
+    border: 2px solid black;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    /*visibility: collapse;*/
+    box-sizing: border-box;
+}
+
+.box-design-2 {
+    padding: 4px 3px 2px 1px;
+    margin: 1px 2px 3px 4px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.box-design-2:hover {
+    color: white;
+    background: red;
+}
+
+html {
+    border: 2px solid red;
+}
+
+body {
+    border: 2px solid blue;
+}
+
+body,
+html {
+    height: 100%;
+}

@@ -1,0 +1,130 @@
+/*
+Common Styles
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/*
+Header Styles
+ */
+.main-home-page {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.main-header {
+    background: #2ddf5c;
+    width: 100%;
+    padding: 5px;
+    top: 0px;
+    /*border: 2px blue solid;*/
+    /*margin: 0px;*/
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+}
+
+.main-nav-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 55px);
+}
+
+.main-nav-items {
+    text-align: right;
+}
+
+.main-nav-item a {
+    padding: 5px;
+    text-decoration: none;
+    margin: 12px;
+    color: #0e4f1f;
+    font-weight: bold;
+}
+
+.main-home-page a {
+    text-decoration: none;
+}
+
+
+.main-nav-item a:hover,
+.main-nav-item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav-item--cta a {
+    background: white;
+    color: #ff1b68;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.main-nav-item--cta a:hover,
+.main-nav-item--cta a:active {
+    color: white;
+    background: #ff1b68;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+/*
+Footer Styles
+*/
+.main-footer {
+    background: black;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.main-footer-links {
+    list-style: none;
+    text-align: center;
+}
+
+.main-footer-link {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-footer-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer-link a:hover,
+.main-footer-link a:active {
+    color: grey;
+}
+
+/**
+Button
+ */
+
+.button {
+    color: white;
+    background: green;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    font: inherit;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    color: green;
+    background: white;
+}

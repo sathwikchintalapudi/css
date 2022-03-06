@@ -1,0 +1,19 @@
+.product-overview {
+    background: azure;
+    color: black;
+    height: 650px;
+    /*width: 950px;*/
+    border: 2px solid blue;
+
+}
+
+main {
+    border: 3px solid red;
+    height: 750px;
+}
+
+.section-title {
+    font-family: "Adobe Devanagari";
+    border: 3px solid blueviolet;
+
+}
